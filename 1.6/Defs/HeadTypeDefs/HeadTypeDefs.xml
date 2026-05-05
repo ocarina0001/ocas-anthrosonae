@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <HeadTypeDef ParentName="ATK_AnthrosonaAverageBase">
+        <defName>OCARINA_Anthroracc_Average_Male</defName>
+        <requiredGenes>
+            <li>OCARINA_AnthroraccFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroracc_Average_Male</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ATK_AnthrosonaAverageBase">
+        <defName>OCARINA_Anthroracc_Average_Female</defName>
+        <requiredGenes>
+            <li>OCARINA_AnthroraccFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroracc_Average_Female</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+</Defs>

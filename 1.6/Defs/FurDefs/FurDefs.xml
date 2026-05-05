@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <FurDef>
+        <defName>OCARINA_Anthroracc</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>            <!-- just using bear for now -->
+            <Male>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Male</Male>
+            <Female>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Female</Female>
+            <Hulk>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Hulk</Hulk>
+            <Fat>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Fat</Fat>
+            <Thin>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Thin</Thin>
+            <Child>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Child</Child>
+            <Baby>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrobear_Child</Baby>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+</Defs>

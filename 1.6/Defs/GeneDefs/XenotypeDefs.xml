@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ATK_AnthrosonaBase">
+        <defName>OCARINA_Anthroracc</defName>
+        <label>anthroracc</label>
+        <description>Anthroraccs are a variant of anthrosonae designed to resemble an anthropomorphized raccoon. While they look quite different, generally they are functionally identical to baseliner humans.\n\nSuch xenogerms are commercially available among many spacer-tech and ultra-tech societies, often as part of an exotic fashion trend or to affirm an individual's identity. Contrary to popular belief, anthrosona genes are engineered from the ground-up without any splicing from their animal counterparts.</description>
+        <descriptionShort>Anthroraccs are a variant of anthrosonae designed to resemble an anthropomorphized raccoon. While they look quite different, generally they are functionally identical to baseliner humans.</descriptionShort>
+        <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthroracc</iconPath>
+        <genes>
+            <li>OCARINA_AnthroraccFur</li>
+            <li>OCARINA_AnthroraccEars</li>
+            <li>OCARINA_AnthroraccTail</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

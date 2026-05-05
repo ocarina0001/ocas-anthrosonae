@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Raccoon</defName>
+        <primaryColor>(200,200,200)</primaryColor>
+        <secondaryColor>(44,44,44)</secondaryColor>
+        <selectionWeight>1.5</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Tanuki</defName>
+        <primaryColor>(185,145,110)</primaryColor>
+        <secondaryColor>(65,30,25)</secondaryColor>
+        <selectionWeight>1.2</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Rocket</defName>
+        <primaryColor>(155,125,105)</primaryColor>
+        <secondaryColor>(85,70,60)</secondaryColor>
+        <selectionWeight>1.2</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Shifty</defName>
+        <primaryColor>(110,175,80)</primaryColor>
+        <secondaryColor>(20,65,40)</secondaryColor>
+        <selectionWeight>0.3</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Rambley</defName>
+        <primaryColor>(165,145,170)</primaryColor>
+        <secondaryColor>(30,30,30)</secondaryColor>
+        <selectionWeight>0.3</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Zigzag</defName>
+        <primaryColor>(195,180,165)</primaryColor>
+        <secondaryColor>(65,70,70)</secondaryColor>
+        <selectionWeight>1.1</selectionWeight>
+    </Anthrosonae.FurColorDef>
+
+</Defs>

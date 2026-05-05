@@ -1,0 +1,2 @@
+All art assets within this mod are licensed under CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+All code within this mod is licensed under MIT (https://opensource.org/license/mit)
