@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Unnatural fur colors -->
+    <Operation Class="VEF.PatchOperationToggableSequence">
+        <enabled>true</enabled>
+        <label>Enable unnatural fur colors:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/GeneDef[contains(defName, "OCARINA_") and contains(defName, "Fur")]/modExtensions/li[@Class="Anthrosonae.FurColors"]/allowedFurColors</xpath>
+                <value>
+                    <li>ATK_FurPreset_PaleBlueWhite</li>
+                    <li>ATK_FurPreset_DeepBlueWhite</li>
+                    <li>ATK_FurPreset_PurpleWhite</li>
+                    <li>ATK_FurPreset_DeepRedWhite</li>
+                    <li>ATK_FurPreset_DeepRedCream</li>
+                    <li>ATK_FurPreset_YellowWhite</li>
+                    <li>ATK_FurPreset_PaleGreenWhite</li>
+                    <li>ATK_FurPreset_DeepGreenWhite</li>
+                    <li>ATK_FurPreset_PinkWhite</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>
