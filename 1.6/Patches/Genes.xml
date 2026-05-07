@@ -7,7 +7,7 @@
 	-->
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/GeneDef[defName="OCARINA_AnthroraccFur"]/modExtensions/li[@Class="Anthrosonae.FurColors"]/allowedFurColors</xpath>
+        <xpath>Defs/GeneDef[contains(defName, "OCARINA_Anthro") and contains(defName, "Fur")]/modExtensions/li[@Class="Anthrosonae.FurColors"]/allowedFurColors</xpath>
         <value>
             <li>ATK_FurColor_Black</li>
             <li>ATK_FurColor_Gray</li>

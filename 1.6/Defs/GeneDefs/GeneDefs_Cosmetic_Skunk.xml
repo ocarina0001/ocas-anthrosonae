@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <GeneDef ParentName="ATK_AnthrosonaFurBase">
+        <defName>OCARINA_AnthroraccFur</defName>
+        <label>anthroracc fur</label>
+        <labelShortAdj>anthroracc furred</labelShortAdj>
+        <description>Carriers of this gene grow raccoon-like fur all over their body.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroraccFur</iconPath>
+        <skinColorOverride>(255,255,255)</skinColorOverride>
+        <forcedHeadTypes>
+            <li>OCARINA_Anthroracc_Average_Male</li>
+            <li>OCARINA_Anthroracc_Average_Female</li>
+        </forcedHeadTypes>
+        <fur>OCARINA_Anthroracc</fur>
+        <modExtensions>
+            <li Class="Anthrosonae.FurColors">
+                <allowedFurColors>
+                    <li>OCARINA_FurPreset_Raccoon</li>
+                    <li>OCARINA_FurPreset_Tanuki</li>
+                    <li>OCARINA_FurPreset_Rocket</li>
+                    <li>OCARINA_FurPreset_Shifty</li>
+                    <li>OCARINA_FurPreset_Rambley</li>
+                    <li>OCARINA_FurPreset_Zigzag</li>
+                </allowedFurColors>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>OCARINA_AnthroraccEars</defName>
+        <label>anthroracc ears</label>
+        <description>Carriers of this gene have raccoon-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroraccEars</iconPath>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/AnthroraccEars</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaTailBase">
+        <defName>OCARINA_AnthroraccTail</defName>
+        <label>anthroracc tail</label>
+        <description>Carriers of this gene have a raccoon-like tail.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroraccTail</iconPath>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/BodyAttachments/Tails/AnthroraccTail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.10,0.03,-0.55)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.30,0,-0.60)</offset>
+                        <rotation>25</rotation>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.30,0,-0.60)</offset>
+                        <rotation>-25</rotation>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+</Defs>

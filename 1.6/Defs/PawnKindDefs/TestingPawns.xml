@@ -34,5 +34,13 @@
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
+    <PawnKindDef ParentName="OCARINA_AnthrosonaeTestPawnKindBase">
+        <defName>OCARINA_AnthroskunkColonist</defName>
+        <xenotypeSet>
+            <xenotypeChances>
+                <OCARINA_Anthroskunk>999</OCARINA_Anthroskunk>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
 
 </Defs>

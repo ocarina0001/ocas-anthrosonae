@@ -7,42 +7,49 @@
                 <xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
                 <xpath>Defs/FactionDef[defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Ideology">
                 <xpath>Defs/FactionDef[defName="Beggars" or defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.00333</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.00333</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
                 <xpath>Defs/FactionDef[defName="TradersGuild" or defName="Salvagers"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="WK.Spacefarers">
                 <xpath>Defs/FactionDef[@Name="WK_SpacefarerFactionBase"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Pirates">
                 <xpath>Defs/FactionDef[defName="VFEP_Junkers" or defName="VFEP_Mercenaries"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">
                 <xpath>Defs/FactionDef[defName="SettlerCivil" or defName="SettlerRough" or defName="SettlerSavage"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.00333</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.00333</OCARINA_Anthroskunk>
                 </value>
             </li>
         </operations>

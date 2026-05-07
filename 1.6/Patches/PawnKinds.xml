@@ -7,6 +7,7 @@
                 <xpath>Defs/PawnKindDef[@Name="SpaceRefugeeBase" or @Name="SlaveBase"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
                 </value>
             </li>
 
@@ -14,6 +15,7 @@
                 <xpath>Defs/PawnKindDef[defName="WK_Spacefarer_Grunt" or defName="WK_Spacefarer_Gunner" or defName="WK_Spacefarer_Sniper" or defName="WK_Spacefarer_Thumper" or defName="WK_Spacefarer_Marine" or defName="WK_Spacefarer_Grenadier" or defName="WK_Spacefarer_Jumper" or defName="WK_Spacefarer_Mechanitor"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
+                    <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
                 </value>
             </li>
         </operations>

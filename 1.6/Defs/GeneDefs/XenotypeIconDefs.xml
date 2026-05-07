@@ -6,4 +6,9 @@
         <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthroracc</texPath>
     </XenotypeIconDef>
 
+    <XenotypeIconDef>
+        <defName>OCARINA_Anthroskunk</defName>
+        <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthroskunk</texPath>
+    </XenotypeIconDef>
+
 </Defs>

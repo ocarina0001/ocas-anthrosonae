@@ -7,7 +7,7 @@
         <label>Enable unnatural fur colors:</label>
         <operations>
             <li Class="PatchOperationAdd">
-                <xpath>Defs/GeneDef[contains(defName, "OCARINA_") and contains(defName, "Fur")]/modExtensions/li[@Class="Anthrosonae.FurColors"]/allowedFurColors</xpath>
+                <xpath>Defs/GeneDef[contains(defName, "OCARINA_Anthro") and contains(defName, "Fur")]/modExtensions/li[@Class="Anthrosonae.FurColors"]/allowedFurColors</xpath>
                 <value>
                     <li>ATK_FurPreset_PaleBlueWhite</li>
                     <li>ATK_FurPreset_DeepBlueWhite</li>
