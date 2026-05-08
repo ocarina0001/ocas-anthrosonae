@@ -15,10 +15,10 @@
     </XenotypeDef>
 
     <XenotypeDef ParentName="ATK_AnthrosonaBase">
-        <defName>OCARINA_Anthroracc</defName>
-        <label>anthroracc</label>
-        <description>Anthroskunks are a variant of anthrosonae designed to resemble an anthropomorphized raccoon. While they look quite different, generally they are functionally identical to baseliner humans.\n\nSuch xenogerms are commercially available among many spacer-tech and ultra-tech societies, often as part of an exotic fashion trend or to affirm an individual's identity. Contrary to popular belief, anthrosona genes are engineered from the ground-up without any splicing from their animal counterparts.</description>
-        <descriptionShort>Anthroskunks are a variant of anthrosonae designed to resemble an anthropomorphized raccoon. While they look quite different, generally they are functionally identical to baseliner humans.</descriptionShort>
+        <defName>OCARINA_Anthroskunk</defName>
+        <label>anthroskunk</label>
+        <description>Anthroskunks are a variant of anthrosonae designed to resemble an anthropomorphized skunk. While they look quite different, generally they are functionally identical to baseliner humans.\n\nSuch xenogerms are commercially available among many spacer-tech and ultra-tech societies, often as part of an exotic fashion trend or to affirm an individual's identity. Contrary to popular belief, anthrosona genes are engineered from the ground-up without any splicing from their animal counterparts.</description>
+        <descriptionShort>Anthroskunks are a variant of anthrosonae designed to resemble an anthropomorphized skunk. While they look quite different, generally they are functionally identical to baseliner humans.</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthroskunk</iconPath>
         <genes>
             <li>OCARINA_AnthroskunkFur</li>

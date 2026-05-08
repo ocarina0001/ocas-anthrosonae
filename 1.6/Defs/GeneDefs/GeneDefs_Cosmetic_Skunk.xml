@@ -16,6 +16,12 @@
         <modExtensions>
             <li Class="Anthrosonae.FurColors">
                 <allowedFurColors>
+                    <li>OCARINA_FurPreset_Skunk</li>
+                    <li>OCARINA_FurPreset_SkunkAlt</li>
+                    <li>OCARINA_FurPreset_SkunkDark</li>
+                    <li>OCARINA_FurPreset_Pepper</li>
+                    <li>OCARINA_FurPreset_Fifi</li>
+                    <li>OCARINA_FurPreset_Petunia</li>
                 </allowedFurColors>
             </li>
         </modExtensions>
@@ -58,24 +64,22 @@
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
-                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <scaleOffsetByBodySize>false</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0.10,0.03,-0.55)</offset>
+                        <offset>(0.35,0.03,-0.15)</offset>
                         <layer>90</layer>
                     </dataNorth>
                     <dataSouth>
-                        <offset>(-0.1,0,-0.18)</offset>
+                        <offset>(-0.35,0,-0.10)</offset>
                     </dataSouth>
                     <dataEast>
-                        <offset>(-0.30,0,-0.60)</offset>
-                        <rotation>25</rotation>
+                        <offset>(-0.45,0,-0.15)</offset>
                     </dataEast>
                     <dataWest>
-                        <offset>(0.30,0,-0.60)</offset>
-                        <rotation>-25</rotation>
+                        <offset>(0.45,0,-0.15)</offset>
                     </dataWest>
                 </drawData>
             </li>

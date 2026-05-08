@@ -14,7 +14,7 @@
         <requiredGenes>
             <li>OCARINA_AnthroraccFur</li>
         </requiredGenes>
-        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroracc_Average_Female</graphicPath>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroracc_Average_Male</graphicPath>
         <gender>Female</gender>
     </HeadTypeDef>
 
@@ -31,7 +31,7 @@
         <requiredGenes>
             <li>OCARINA_AnthroskunkFur</li>
         </requiredGenes>
-        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroskunk_Average_Female</graphicPath>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroskunk_Average_Male</graphicPath>
         <gender>Female</gender>
     </HeadTypeDef>
 

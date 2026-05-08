@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Skunk</defName>
+        <primaryColor>(62,65,65)</primaryColor>
+        <secondaryColor>(217,217,217)</secondaryColor>
+        <selectionWeight>1.5</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_SkunkAlt</defName>
+        <primaryColor>(101,103,103)</primaryColor>
+        <secondaryColor>(178,179,179)</secondaryColor>
+        <selectionWeight>1.5</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_SkunkDark</defName>
+        <primaryColor>(62,65,65)</primaryColor>
+        <secondaryColor>(101,103,103)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Pepper</defName>
+        <primaryColor>(146,146,146)</primaryColor>
+        <secondaryColor>(250,250,250)</secondaryColor>
+        <selectionWeight>1.4</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Fifi</defName>
+        <primaryColor>(87, 87, 150)</primaryColor>
+        <secondaryColor>(165, 185, 195)</secondaryColor>
+        <selectionWeight>0.6</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Petunia</defName>
+        <primaryColor>(64,120,221)</primaryColor>
+        <secondaryColor>(154,185,249)</secondaryColor>
+        <selectionWeight>0.2</selectionWeight>
+    </Anthrosonae.FurColorDef>
 
 </Defs>
