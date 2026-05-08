@@ -22,6 +22,8 @@
                     <li>OCARINA_FurPreset_Pepper</li>
                     <li>OCARINA_FurPreset_Fifi</li>
                     <li>OCARINA_FurPreset_Petunia</li>
+                    <li>OCARINA_FurPreset_Stunky</li>
+                    <li>OCARINA_FurPreset_ShinyStunky</li>
                 </allowedFurColors>
             </li>
         </modExtensions>

@@ -32,6 +32,18 @@
         <selectionWeight>0.6</selectionWeight>
     </Anthrosonae.FurColorDef>
     <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_Stunky</defName>
+        <primaryColor>(101, 79, 112)</primaryColor>
+        <secondaryColor>(247, 232, 196)</secondaryColor>
+        <selectionWeight>0.4</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_ShinyStunky</defName>
+        <primaryColor>(169, 56, 92)</primaryColor>
+        <secondaryColor>(248, 212, 195)</secondaryColor>
+        <selectionWeight>0.01</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
         <defName>OCARINA_FurPreset_Petunia</defName>
         <primaryColor>(64,120,221)</primaryColor>
         <secondaryColor>(154,185,249)</secondaryColor>
