@@ -8,6 +8,7 @@
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.00666</OCARINA_Anthroboghound>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
@@ -15,6 +16,7 @@
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.00666</OCARINA_Anthroboghound>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Ideology">
@@ -22,6 +24,7 @@
                 <value>
                     <OCARINA_Anthroracc>0.00333</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.00333</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.00333</OCARINA_Anthroboghound>
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Odyssey">
@@ -29,6 +32,8 @@
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.0075</OCARINA_Anthroboghound>
+
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="WK.Spacefarers">
@@ -36,6 +41,8 @@
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.0075</OCARINA_Anthroboghound>
+
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Pirates">
@@ -43,6 +50,8 @@
                 <value>
                     <OCARINA_Anthroracc>0.00666</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.00666</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.00666</OCARINA_Anthroboghound>
+
                 </value>
             </li>
             <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">
@@ -50,6 +59,8 @@
                 <value>
                     <OCARINA_Anthroracc>0.00333</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.00333</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.00333</OCARINA_Anthroboghound>
+
                 </value>
             </li>
         </operations>

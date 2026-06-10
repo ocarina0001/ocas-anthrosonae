@@ -8,6 +8,7 @@
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.0075</OCARINA_Anthroboghound>
                 </value>
             </li>
 
@@ -16,6 +17,7 @@
                 <value>
                     <OCARINA_Anthroracc>0.0075</OCARINA_Anthroracc>
                     <OCARINA_Anthroskunk>0.0075</OCARINA_Anthroskunk>
+                    <OCARINA_Anthroboghound>0.0075</OCARINA_Anthroboghound>
                 </value>
             </li>
         </operations>

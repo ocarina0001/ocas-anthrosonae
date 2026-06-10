@@ -29,4 +29,18 @@
         </bodyTypeGraphicPaths>
     </FurDef>
 
+    <FurDef>
+        <defName>OCARINA_Anthroboghound</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Male</Male>
+            <Female>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Female</Female>
+            <Hulk>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Hulk</Hulk>
+            <Fat>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Fat</Fat>
+            <Thin>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Thin</Thin>
+            <Child>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Child</Child>
+            <Baby>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrowolf_Child</Baby>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
 </Defs>

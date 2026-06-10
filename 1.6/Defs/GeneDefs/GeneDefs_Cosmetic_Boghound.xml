@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <GeneDef ParentName="ATK_AnthrosonaFurBase">
+        <defName>OCARINA_AnthroboghoundFur</defName>
+        <label>anthroboghound fur</label>
+        <labelShortAdj>anthroboghound furred</labelShortAdj>
+        <description>Carriers of this gene grow boghound-like fur all over their body.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroboghoundFur</iconPath>
+        <skinColorOverride>(255,255,255)</skinColorOverride>
+        <forcedHeadTypes>
+            <li>OCARINA_Anthroboghound_Average_Male</li>
+            <li>OCARINA_Anthroboghound_Average_Female</li>
+        </forcedHeadTypes>
+        <fur>OCARINA_Anthroboghound</fur>
+        <modExtensions>
+            <li Class="Anthrosonae.FurColors">
+                <allowedFurColors>
+                    <li>OCARINA_FurPreset_BoghoundRegular</li>
+                    <li>OCARINA_FurPreset_BoghoundReversed</li>
+                    <li>OCARINA_FurPreset_BoghoundShiftedOnce</li>
+                    <li>OCARINA_FurPreset_BoghoundShiftedTwice</li>
+                    <li>OCARINA_FurPreset_BoghoundRoundDown</li>
+                    <li>OCARINA_FurPreset_BoghoundRoundUp</li>
+                    <li>OCARINA_FurPreset_BoghoundDark</li>
+                    <li>OCARINA_FurPreset_BoghoundLight</li>
+                </allowedFurColors>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>OCARINA_AnthroboghoundEars</defName>
+        <label>anthroboghound ears</label>
+        <description>Carriers of this gene have boghound-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroboghoundEars</iconPath>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/Anthroboghound_Ears</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>OCARINA_AnthroboghoundEarsFloppy</defName>
+        <label>anthroboghound ears - floppy</label>
+        <description>Carriers of this gene have boghound-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroboghoundEarsFloppy</iconPath>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/Anthroboghound_EarsFloppy</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>OCARINA_AnthroboghoundEarsInvert</defName>
+        <label>anthroboghound ears - invert</label>
+        <description>Carriers of this gene have boghound-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroboghoundEarsInvert</iconPath>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/Anthroboghound_EarsInvert</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <GeneDef ParentName="ATK_AnthrosonaTailBase">
+        <defName>OCARINA_AnthroboghoundTail</defName>
+        <label>anthroboghound tail</label>
+        <description>Carriers of this gene have a boghound-like tail.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroboghoundTail</iconPath>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Anthrosonae/BodyAttachments/Tails/AnthroboghoundTail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.01,0.03,-0.55)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.30,0,-0.42)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.30,0,-0.42)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+</Defs>

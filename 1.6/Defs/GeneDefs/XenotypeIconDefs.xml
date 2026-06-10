@@ -11,4 +11,9 @@
         <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthroskunk</texPath>
     </XenotypeIconDef>
 
+    <XenotypeIconDef>
+        <defName>OCARINA_Anthroboghound</defName>
+        <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthroboghound</texPath>
+    </XenotypeIconDef>
+
 </Defs>

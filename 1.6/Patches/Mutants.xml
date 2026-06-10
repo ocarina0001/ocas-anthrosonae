@@ -12,6 +12,11 @@
                     <li>OCARINA_AnthroskunkFur</li>
                     <li>OCARINA_AnthroskunkEars</li>
                     <li>OCARINA_AnthroskunkTail</li>
+                    <li>OCARINA_AnthroboghoundFur</li>
+                    <li>OCARINA_AnthroboghoundEars</li>
+                    <li>OCARINA_AnthroboghoundEarsFloppy</li>
+                    <li>OCARINA_AnthroboghoundEarsInvert</li>
+                    <li>OCARINA_AnthroboghoundTail</li>
                 </value>
             </li>
         </operations>

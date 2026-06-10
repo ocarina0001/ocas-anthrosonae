@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundRegular</defName>
+        <primaryColor>(123,104,89)</primaryColor>
+        <secondaryColor>(123,104,89)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundReversed</defName>
+        <primaryColor>(89,104,123)</primaryColor>
+        <secondaryColor>(89,104,123)</secondaryColor>
+        <selectionWeight>0.3</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundShiftedOnce</defName>
+        <primaryColor>(89, 123, 104)</primaryColor>
+        <secondaryColor>(89, 123, 104)</secondaryColor>
+        <selectionWeight>0.2</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundShiftedTwice</defName>
+        <primaryColor>(104, 89, 123)</primaryColor>
+        <secondaryColor>(104, 89, 123)</secondaryColor>
+        <selectionWeight>0.2</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundRoundDown</defName>
+        <primaryColor>(100,100,80)</primaryColor>
+        <secondaryColor>(100,100,80)</secondaryColor>
+        <selectionWeight>0.5</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundRoundUp</defName>
+        <primaryColor>(130,110,90)</primaryColor>
+        <secondaryColor>(130,110,90)</secondaryColor>
+        <selectionWeight>0.5</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundDark</defName>
+        <primaryColor>(50,50,50)</primaryColor>
+        <secondaryColor>(50,50,50)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </Anthrosonae.FurColorDef>
+    <Anthrosonae.FurColorDef ParentName="ATK_FurPresetBase">
+        <defName>OCARINA_FurPreset_BoghoundLight</defName>
+        <primaryColor>(120,120,120)</primaryColor>
+        <secondaryColor>(120,120,120)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </Anthrosonae.FurColorDef>
+
+</Defs>

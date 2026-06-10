@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="VEF.PatchOperationToggableSequence">
+        <enabled>false</enabled>
+        <label>Enable content genes:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="OCARINA_Anthroracc"]/genes</xpath>
+                <value>
+                    <li>NakedSpeed</li>
+                    <li>MinTemp_SmallDecrease</li>
+                    <li>ElongatedFingers</li>
+                    <li>Mood_Optimist</li>
+                    <li MayRequire="sarg.alphagenes">AG_SmallerBodySize</li>
+                    <li MayRequire="sarg.alphagenes">AG_Filthy</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="OCARINA_Anthroskunk"]/genes</xpath>
+                <value>
+                    <li>NakedSpeed</li>
+                    <li>MaxTemp_SmallDecrease</li>
+                    <li>MinTemp_SmallDecrease</li>
+                    <li MayRequire="sarg.alphagenes">AG_SmallerBodySize</li>
+                    <li MayRequire="sarg.alphagenes">AG_Filthy</li>
+                    <li MayRequire="sarg.alphagenes">AG_Stinky</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="OCARINA_Anthroboghound"]/genes</xpath>
+                <value>
+                    <li>Aggression_Aggressive</li>
+                    <li>Instability_Mild</li>
+                    <li>MeleeDamage_Strong</li>
+                    <li>StrongStomach</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

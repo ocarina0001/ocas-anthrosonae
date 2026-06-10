@@ -35,4 +35,21 @@
         <gender>Female</gender>
     </HeadTypeDef>
 
+    <HeadTypeDef ParentName="ATK_AnthrosonaAverageBase">
+        <defName>OCARINA_Anthroboghound_Average_Male</defName>
+        <requiredGenes>
+            <li>OCARINA_AnthroboghoundFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroboghound_Average_Male</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+    <HeadTypeDef ParentName="ATK_AnthrosonaAverageBase">
+        <defName>OCARINA_Anthroboghound_Average_Female</defName>
+        <requiredGenes>
+            <li>OCARINA_AnthroboghoundFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthroboghound_Average_Male</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
 </Defs>
